@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f2f2f2;
+            margin: 0;
+        }
+
+        .container {
+            width: 400px;
+            background-color: white;
+            margin: 80px auto;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 0 8px gray;
+        }
+
+        h2 {
+            text-align: center;
+            color: #2563eb;
+        }
+
+        input {
+            width: 95%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        button {
+            background-color: #2563eb;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>User Login</h2>
+
+        <form action="login" method="post">
+
+            <input type="text"
+                   name="username"
+                   placeholder="Enter Username"
+                   required>
+
+            <input type="password"
+                   name="password"
+                   placeholder="Enter Password"
+                   required>
+
+            <button type="submit">
+                Login
+            </button>
+
+        </form>
+
+    </div>
+
+    <footer>
+        copyright@24071A05J2
+    </footer>
+
+</body>
+</html>
